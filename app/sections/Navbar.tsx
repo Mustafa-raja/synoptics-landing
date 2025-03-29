@@ -53,7 +53,7 @@ const Navbar = () => {
 
               </div>
               <span className="text-[28px] font-bold tracking-tight">
-                Synoptix<span className="text-blue-500">.</span>ai
+                Synoptix<span className="text-blue-500">.</span>AI
               </span>
             </Link>
           </div>

@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { Typewriter } from 'react-simple-typewriter';
 import { BackgroundGradientAnimation } from '@/components/ui/background-gradient-animation';
-  import ProvidersMarquee from "@/app/components/ProvidersMarquee";
+  import ProvidersMarquee from "@/app/sections/ProvidersMarquee";
 
 const Hero = () => {
   return (

@@ -49,7 +49,7 @@ const Footer = () => {
                   className="h-10 w-10"
                 />
                 <span className="text-[28px] font-bold tracking-tight">
-                  synoptix<span className="text-blue-500">.</span>ai
+                  Synoptix<span className="text-blue-500">.</span>AI
                 </span>
               </div>
             </Link>
