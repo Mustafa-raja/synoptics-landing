@@ -10,7 +10,7 @@ import RagStatsSection from "./sections/rag-stats";
 // import QuantumSection from "./sections/quantum";
 import FAQ from "./sections/faq";
 import TestimonialsSection from "../sections/TestimonialsSection";
-
+import SmallFoot from "../sections/smallFoot";
 export default function RagApplication() {
     return (
         <main className="w-full">
@@ -24,6 +24,7 @@ export default function RagApplication() {
             {/* <QuantumSection /> */}
             <FAQ />
             <TestimonialsSection />
+            <SmallFoot title="Start Your Journey to Smarter Workflows" buttonOne="Request a Demo" buttonTwo="Need answers? Let's Talk." />
         </main>
     );
 }

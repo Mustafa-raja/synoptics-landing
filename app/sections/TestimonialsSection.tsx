@@ -34,7 +34,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section className="w-full py-20">
+    <section className=" py-20 w-min-full mx-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-16">
           {/* Left side - Title and description */}

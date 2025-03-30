@@ -40,14 +40,13 @@ const WhySection = () => {
                 <div className="flex flex-col lg:flex-row gap-16">
                     {/* Left side - Image with overlays */}
                     <div className="w-full lg:w-1/2 relative rounded-3xl overflow-hidden border border-blue-100 bg-gradient-to-br from-blue-50/50 to-white">
-                        <div className="aspect-[4/3] relative">
+                        <div className=" relative">
                             <Image
-                                src="https://via.placeholder.com/800x600.png"
+                                src="/why.png"
                                 alt="AI workspace"
                                 width={800}
                                 height={600}
                                 className="w-full h-full object-cover"
-                                unoptimized
                             />
 
                             {/* Overlay buttons */}
@@ -71,7 +70,7 @@ const WhySection = () => {
                         </div>
 
                         {/* Gradient border */}
-                        <div className="absolute inset-0 rounded-3xl pointer-events-none border-2 border-transparent bg-clip-padding [background:linear-gradient(to_right,#00c6ff,#0072ff)_padding-box,linear-gradient(to_right,#00c6ff,#0072ff)_border-box]" />
+                        {/* <div className="absolute inset-0 rounded-3xl pointer-events-none border-2 border-transparent bg-clip-padding [background:linear-gradient(to_right,#00c6ff,#0072ff)_padding-box,linear-gradient(to_right,#00c6ff,#0072ff)_border-box]" /> */}
                     </div>
 
                     {/* Right side - Text content */}

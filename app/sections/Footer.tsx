@@ -23,7 +23,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative bg-gradient-to-b from-[#F5FAFF] to-white border-t border-gray-100">
+    <footer className="relative bg-gradient-to-b from-[#F5FAFF] to-white border-t border-gray-100 w-max-full px-8">
       {/* Background Blob */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <Image

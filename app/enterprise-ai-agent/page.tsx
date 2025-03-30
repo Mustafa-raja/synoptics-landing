@@ -12,7 +12,7 @@ import FAQ from "./sections/faq";
 import TestimonialsSection from "../sections/TestimonialsSection";
 import FeaturesSection from "../sections/FeaturesSection";
 import Capabilities from "./sections/capabilities";
-
+import SmallFoot from "../sections/smallFoot";
 export default function RagApplication() {
     return (
         <main className="w-full">
@@ -28,6 +28,7 @@ export default function RagApplication() {
             <QuantumSection />
             <FAQ />
             <TestimonialsSection />
+            <SmallFoot title="Explore Enterprise AI Agent" buttonOne="Request a Demo" buttonTwo="Need answers? Let's Talk." />
         </main>
     );
 }
